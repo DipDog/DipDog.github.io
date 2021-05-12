@@ -115,7 +115,7 @@ a.main-button-slider {
   font-size: 14px;
   border-radius: 25px;
   padding: 15px 25px;
-  background-color: #93bc52;
+  background-color: #fdbd51;
   text-transform: uppercase;
   color: #fff;
   font-weight: 600;
@@ -134,7 +134,7 @@ a.main-button {
   font-size: 14px;
   border-radius: 25px;
   padding: 15px 25px;
-  background-color: #93bc52;
+  background-color: #fdbd51;
   text-transform: uppercase;
   color: #fff;
   font-weight: 600;
@@ -156,7 +156,7 @@ button.main-button {
   font-size: 14px;
   border-radius: 25px;
   padding: 15px 25px;
-  background-color: #93bc52;
+  background-color: #fdbd51;
   text-transform: uppercase;
   color: #fff;
   font-weight: 600;
@@ -181,13 +181,13 @@ button.main-button:hover {
   text-align: center;
   font-size: 42px;
   font-weight: 700;
-  color: #1e1e1e;
+  color: #ffffff;
   margin-bottom: 25px;
 }
 
 .center-heading h2 em {
   font-style: normal;
-  color: #93bc52;
+  color: #fdbd51;
 }
 
 .center-heading p {
@@ -204,7 +204,7 @@ header
 */
 
 .background-header {
-  background-color: #fff;
+  background-color: #2b2b2b;
   height: 80px!important;
   position: fixed!important;
   top: 0px;
@@ -215,15 +215,15 @@ header
 
 .background-header .logo,
 .background-header .main-nav .nav li a {
-  color: #1e1e1e!important;
+  color: #ffffff!important;
 }
 
 .background-header .main-nav .nav li:hover a {
-  color: #93bc52!important;
+  color: #fdbd51!important;
 }
 
 .background-header .nav li a.active {
-  color: #93bc52!important;
+  color: #fdbd51!important;
 }
 
 .header-area {
@@ -246,7 +246,7 @@ header
 
 .header-area .main-nav .logo {
   line-height: 80px;
-  color: #191a20;
+  color: #ffffff;
   font-size: 28px;
   font-weight: 700;
   text-transform: uppercase;
@@ -264,7 +264,7 @@ header
   margin-top: 27px;
   margin-left: 15%;
   margin-right: 0px;
-  background-color: #fff;
+
   padding: 0px 20px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -287,7 +287,7 @@ header
   display: block;
   font-weight: 500;
   font-size: 13px;
-  color: #7a7a7a;
+  color: #ffffff;
   text-transform: uppercase;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -300,7 +300,7 @@ header
 }
 
 .header-area .main-nav .nav li:hover a {
-  color: #93bc52;
+  color: #d4942e;
 }
 
 .header-area .main-nav .nav li.submenu {
@@ -312,7 +312,7 @@ header
   font-family: FontAwesome;
   content: "\f107";
   font-size: 12px;
-  color: #7a7a7a;
+  color: #ffffff;
   position: absolute;
   right: 18px;
   top: 12px;
@@ -365,12 +365,12 @@ header
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  background: #93bc52;
+  background: #fdbd51;
 }
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
   background: #fff;
-  color: #93bc52!important;
+  color: #fdbd51!important;
   padding-left: 25px;
 }
 
@@ -506,7 +506,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #93bc52;
+  color: #f6b444;
 }
 
 @media (max-width: 1200px) {
@@ -525,7 +525,7 @@ header
     float: none!important;
   }
   .header-area {
-    background-color: #f7f7f7;
+    background-color: #2b2b2b;
     padding: 0px 15px;
     height: 80px;
     box-shadow: none;
@@ -569,12 +569,12 @@ header
     line-height: 50px !important;
     padding: 0px !important;
     border: none !important;
-    background: #f7f7f7 !important;
-    color: #191a20 !important;
+    background: #2b2b2b !important;
+    color: #ffffff !important;
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #93bc52!important;
+    color: #fdbd51!important;
   }
   .header-area .main-nav .nav li.submenu ul {
     position: relative;
@@ -643,18 +643,18 @@ welcome
   line-height: 80px;
   letter-spacing: 1px;
   margin-bottom: 30px;
-  color: #191a20;
+  color: #ffffff;
 }
 
 .welcome-area .header-text h1 em {
   font-style: normal;
-  color: #93bc52;
+  color: #f7b546;
 }
 
 .welcome-area .header-text p {
   font-weight: 300;
   font-size: 17px;
-  color: #7a7a7a;
+  color: #ffffff;
   line-height: 30px;
   letter-spacing: 0.25px;
   margin-bottom: 40px;
@@ -709,11 +709,11 @@ welcome
 
 /*
 ---------------------------------------------
-about
+help
 ---------------------------------------------
 */
 
-#about {
+#help {
   padding: 100px 0px;
   position: relative;
   z-index: 9;
@@ -729,7 +729,8 @@ about
   border-radius: 5px;
   padding: 60px 30px;
   text-align: center;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
+  background-color:#ffffff;
 }
 
 .features-item h2 {
@@ -752,7 +753,7 @@ about
 .features-item h4 {
   margin-top: 0px;
   font-size: 22px;
-  color: #1e1e1e;
+  color: #000000;
   margin-bottom: 25px;
 }
 
@@ -764,7 +765,7 @@ about
 
 /*
 ---------------------------------------------
-promotion
+roadmap
 ---------------------------------------------
 */
 
@@ -778,37 +779,37 @@ promotion
   margin-top: -200px;
 }
 
-#promotion {
+#roadmap {
   padding: 100px 0px;
 }
 
-#promotion .left-image {
+#roadmap .left-image {
   align-self: center;
 }
 
-#promotion .right-text ul {
+#roadmap .right-text ul {
   padding: 0;
   margin: 0;
 }
 
-#promotion .right-text ul li {
+#roadmap .right-text ul li {
   display: inline-block;
   margin-bottom: 60px;
 }
 
-#promotion .right-text ul li:last-child {
+#roadmap .right-text ul li:last-child {
   margin-bottom: 0px;
 }
 
-#promotion .right-text img {
+#roadmap .right-text img {
   display: inline-block;
   float: left;
   margin-right: 30px;
 }
 
-#promotion .right-text h4 {
+#roadmap .right-text h4 {
   font-size: 22px;
-  color: #1e1e1e;
+  color: #ffffff;
   margin-bottom: 15px;
   margin-top: 3px;
 }
@@ -816,7 +817,7 @@ promotion
 
 /*
 --------------------------------------------
-testimonials
+donations
 --------------------------------------------
 */
 .right-image-decor {
@@ -830,55 +831,55 @@ testimonials
   margin-top: -200px;
 }
 
-#testimonials {
+#donations {
   padding-top: 100px;
   position: relative;
   z-index: 9;
 }
 
-#testimonials .item {
+#donations .item {
   position: relative;
 }
 
-#testimonials .item .testimonial-content {
+#donations .item .testimonial-content {
   background: rgb(244,129,63);
-  background: linear-gradient(145deg, rgba(244,129,63,1) 0%, rgba(241,85,106,1) 100%);
+  background: linear-gradient(145deg, rgba(255,183,59,1) 0%, rgba(159,83,29,1) 100%);
   margin-left: 60px;
   padding: 40px 30px;
   text-align: center;
   border-radius: 5px;
 }
 
-#testimonials .item .testimonial-content ul li {
+#donations .item .testimonial-content ul li {
   display: inline-block;
   margin: 0px 1px;
 }
 
-#testimonials .item .testimonial-content ul li i {
+#donations .item .testimonial-content ul li i {
   color: #fff;
   font-size: 13px;
 }
 
-#testimonials .item .testimonial-content h4 {
+#donations .item .testimonial-content h4 {
   font-size: 22px;
   margin-top: 20px;
   color: #fff;
 }
 
-#testimonials .item .testimonial-content p {
+#donations .item .testimonial-content p {
   color: #fff;
   font-style: italic;
   font-weight: 200;
   margin: 20px 0px 15px 0px;
 }
 
-#testimonials .item .testimonial-content span {
+#donations .item .testimonial-content span {
   color: #fff;
   font-weight: 200;
   font-size: 13px;
 }
 
-#testimonials .author img {
+#donations .author img {
   max-width: 120px;
   margin-bottom: -60px;
 }
@@ -896,7 +897,7 @@ testimonials
   text-align: center;
   display: inline-block;
   background: rgb(244,129,63);
-  background: linear-gradient(145deg, rgba(244,129,63,1) 0%, rgba(241,85,106,1) 100%);
+  background: linear-gradient(145deg, rgba(255,183,59,1) 0%, rgba(159,83,29,1) 100%);
   position: absolute;
 }
 
@@ -913,7 +914,7 @@ testimonials
   text-align: center;
   display: inline-block;
   background: rgb(244,129,63);
-  background: linear-gradient(145deg, rgba(244,129,63,1) 0%, rgba(241,85,106,1) 100%);
+  background: linear-gradient(145deg, rgba(255,183,59,1) 0%, rgba(159,83,29,1) 100%);
   position: absolute;
 }
 
@@ -1028,7 +1029,7 @@ footer .right-content {
 
 .footer-content .right-content h2 em {
   font-style: normal;
-  color: #93bc52;
+  color: #fdbd51;
 }
 
 .footer-content .right-content p {
@@ -1075,8 +1076,8 @@ footer .social li a {
 }
 
 footer .social li a:hover {
-  background-color: #93bc52;
-  border-color: #93bc52;
+  background-color: #fdbd51;
+  border-color: #fdbd51;
   color: #fff;
 }
 
@@ -1126,7 +1127,7 @@ preloader
 */
 #preloader {
   overflow: hidden;
-  background-image: linear-gradient(145deg, #93bc52 0%, #f1556a 100%);
+  background-image: linear-gradient(145deg, #fdbd51 0%, #f1556a 100%);
   left: 0;
   right: 0;
   top: 0;
