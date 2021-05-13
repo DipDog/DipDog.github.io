@@ -519,6 +519,21 @@ header
   }
 }
 
+.show-large {
+  display: none;
+}
+@media only screen and (min-width: 967px) {
+  .show-large {
+    display: block;
+  }
+  .show-mobile {
+    display: none;
+	
+  	
+  }
+}
+
+
 @media (max-width: 991px) {
   .logo {
     text-align: center;
